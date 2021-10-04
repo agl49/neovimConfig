@@ -2,8 +2,8 @@
 call plug#begin('~/.config/nvim/plugged')
 
   "File navigation
-  "	Plug 'scrooloose/nerdTree'
-  "	nmap <C-n> :NERDTreeToggle<CR>
+  	Plug 'scrooloose/nerdTree'
+  	nmap <C-n> :NERDTreeToggle<CR>
 
   "Info display
   Plug 'bling/vim-airline'
