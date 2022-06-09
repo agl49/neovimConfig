@@ -10,9 +10,9 @@ call plug#begin('~/.config/nvim/plugged')
 
   "Themes
   "Plug 'morhetz/gruvbox'
-  Plug 'fcpg/vim-orbital'
+  " Plug 'fcpg/vim-orbital'
   " Plug 'jaredgorski/spacecamp'
-  " Plug 'fcpg/vim-fahrenheit'
+  Plug 'fcpg/vim-fahrenheit'
 
   "Editing functionality
   " Plug 'reedes/vim-pencil' 
@@ -29,9 +29,9 @@ call plug#begin('~/.config/nvim/plugged')
   Plug 'sheerun/vim-polyglot'
 
   " FZF plugins 
-  " Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
+  Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
   " Plug 'neoclide/coc.nvim', { 'branch': 'release' }  
-  " Plug 'junegunn/fzf.vim'
+  Plug 'junegunn/fzf.vim'
   Plug 'airblade/vim-rooter'
 
   " git plugin
@@ -61,7 +61,7 @@ call plug#end()
 "Theme Config
 set termguicolors
 
-colorscheme orbital
+colorscheme fahrenheit
 
 "Neovim config
 
