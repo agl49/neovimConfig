@@ -12,7 +12,8 @@ call plug#begin('~/.config/nvim/plugged')
   "Plug 'morhetz/gruvbox'
   " Plug 'fcpg/vim-orbital'
   " Plug 'jaredgorski/spacecamp'
-  Plug 'fcpg/vim-fahrenheit'
+  " Plug 'fcpg/vim-fahrenheit'
+  Plug 'bluz71/vim-moonfly-colors'
 
   "Editing functionality
   " Plug 'reedes/vim-pencil' 
@@ -61,7 +62,7 @@ call plug#end()
 "Theme Config
 set termguicolors
 
-colorscheme fahrenheit
+colorscheme moonfly
 
 "Neovim config
 
