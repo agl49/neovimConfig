@@ -32,7 +32,7 @@ vim.keymap.set("n", "<leader>Y", [["+Y]])
 vim.keymap.set({"n", "v"}, "<leader>d", [["_d]])
 
 -- Allows access to tmux sessions
-vim.keymap.set("n", "<C-f>", "<cmd>silent !tmux neww tmux-sessionizer<CR>")
+vim.keymap.set("n", "<C-tm>", "<cmd>silent !tmux neww tmux-sessionizer<CR>")
 -- Format for language server
 vim.keymap.set("n", "<leader>f", vim.lsp.buf.format)
 
